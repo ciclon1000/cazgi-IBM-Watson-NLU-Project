@@ -5,6 +5,13 @@ import React from 'react';
 
 class App extends React.Component {
   /*
+  title change
+  */
+  componentDidMount(){
+    document.title = "Sentiment Analyzer"
+  }
+    
+  /*
   We are setting the component as a state named innercomp.
   When this state is accessed, the HTML that is set as the 
   value of the state, will be returned. The initial input mode
